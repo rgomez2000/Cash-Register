@@ -1,0 +1,140 @@
+:root {
+    --dark-grey: #0a0a23;
+    --white: #ffffff;
+    --purple: #6f0fa7;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+    
+  body {
+    color: var(--white);
+    background-color: var(--dark-grey);
+  }
+    
+  .title-container {
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+    
+  .title {
+    margin: auto;
+    font-weight: 750;
+    font-size: 45px;
+  }
+    
+  #body-container {
+      max-width: 500px;
+      max-height: 400px;
+      background-color: var(--white);
+      color: var(--white);
+      margin: 30px auto 0px;
+      border-radius: 25px;
+      border: 2px solid black;
+      padding: 20px;
+      box-shadow: 1px 2px 5px 1px rgb(44, 128, 255);
+      text-align: center;
+  }
+    
+  #change-due {
+    max-width: 500px;
+    max-height: 400px;
+    background-color: var(--white);
+    color: var(--dark-grey);
+    margin: 30px auto 0px;
+    border-radius: 25px;
+    padding: 0px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 550;
+  }
+  
+  #purchase-btn {
+    background-color: var(--purple);
+    border-radius: 14px;
+    border: 1px solid black;
+    color: var(--white);
+    padding: 8px 24px;
+  }
+  
+  #purchase-btn:hover {
+    cursor: pointer;
+  }
+  
+  #purchase-btn:active {
+    margin-left: 1px 1px 0;
+    box-shadow: -1px -1px 1px #000;
+    outline: 0.5px solid black;
+    background-image: linear-gradient(to top, #9323af, #731e9b);
+  }
+  
+  .body-text {
+    color: black;
+    font-weight: 400;
+  }
+    
+  #cash {
+    margin: auto;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: var(--purple)
+  }
+    
+  .cash-register {
+    max-width: 500px;
+    max-height: 400px;
+    background-color: var(--white);
+    color: var(--white);
+    margin: 30px auto 0px;
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 20px;
+    box-shadow: 1px 2px 5px 1px rgb(44, 128, 255);
+    text-align: center;
+  }
+  
+  .customer-total {
+    margin-bottom: 20px;
+  }
+  
+  .customer-total h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .customer-total p {
+    font-size: 30px;
+    font-weight: bold;
+    color: #2ecc71;
+  }
+  
+  .cash-drawer h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .bills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .bill {
+    background-color: #f39c12;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    width: 50px;
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .bill:nth-child(odd) {
+    background-color: #3498db;
+  }
